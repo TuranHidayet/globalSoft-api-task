@@ -1,8 +1,4 @@
-# Bankomat Sistemi
-
-Bu layihə, istifadəçilərin hesablarındakı balansları yoxlamaq, pullarını çıxarmaq və əməliyyatları izləmək kimi funksiyalar təqdim edən bir bankomat sistemini təsvir edir. Bu sistem, Laravel ilə qurulmuşdur və API vasitəsilə istifadəçilərin əməliyyatlarını idarə etməyə imkan verir.
-
-## Layihənin Mövzusu
+# Layihənin Mövzusu
 
 Bu layihə, istifadəçilərin müəyyən bir bank hesabında olan balanslarını yoxlamağa, balansdan müəyyən miqdarda pul çıxarmağa və bütün bu əməliyyatları izləməyə imkan verir. Həmçinin, **admin** hüquqları ilə əməliyyatları silmək və istifadəçiləri idarə etmək mümkün olacaq.
 
