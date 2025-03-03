@@ -44,6 +44,9 @@ Bu layihəni öz sisteminizdə işə salmaq üçün aşağıdakı adımları izl
 
 İstifadəçi `POST /register` endpoint ilə qeydiyyatdan keçə bilər. Burada `name`, `email`, və `password` göndərilməlidir.
 
+![Balance Check Image]([https://github.com/istifadəçi_adı/repo_adı/raw/main/images/balance_check_image.png](https://github.com/TuranHidayet/globalSoft-api-task/commit/166fb14c45dbac4ab50eca4d9b4fbd27410a1b0d))
+
+
 #### Request:
 ```json
 {
@@ -51,3 +54,5 @@ Bu layihəni öz sisteminizdə işə salmaq üçün aşağıdakı adımları izl
     "email": "john@example.com",
     "password": "password123"
 }
+
+
