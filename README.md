@@ -47,15 +47,5 @@ Bu layihəni öz sisteminizdə işə salmaq üçün aşağıdakı adımları izl
 ![Balance Check Image](https://raw.githubusercontent.com/TuranHidayet/globalSoft-api-task/166fb14c45dbac4ab50eca4d9b4fbd27410a1b0d/login.jpeg)
 
 
-### 1. **Balans yoxlama**:
-
-İstifadəçi `GET /balance` endpoint ilə hesab balansını yoxlaya bilər. Bu əməliyyat üçün **Bearer Token** istifadə olunur.
-
-
-
-![Balance Check Image](https://raw.githubusercontent.com/TuranHidayet/globalSoft-api-task/166fb14c45dbac4ab50eca4d9b4fbd27410a1b0d/getBalance0.jpeg)
-
-
-
 
 
