@@ -44,7 +44,7 @@ Bu layihəni öz sisteminizdə işə salmaq üçün aşağıdakı adımları izl
 
 İstifadəçi `POST /register` endpoint ilə qeydiyyatdan keçə bilər. Burada `name`, `email`, və `password` göndərilməlidir.
 
-![Balance Check Image]([https://github.com/istifadəçi_adı/repo_adı/raw/main/images/balance_check_image.png](https://github.com/TuranHidayet/globalSoft-api-task/commit/166fb14c45dbac4ab50eca4d9b4fbd27410a1b0d))
+![Balance Check Image](https://raw.githubusercontent.com/TuranHidayet/globalSoft-api-task/166fb14c45dbac4ab50eca4d9b4fbd27410a1b0d/getBalance0.jpeg)
 
 
 #### Request:
