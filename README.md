@@ -20,7 +20,7 @@ Bu layihəni öz sisteminizdə işə salmaq üçün aşağıdakı adımları izl
 
 1. **Layihəni klonlayın**:
     ```bash
-    git clone https://github.com/username/repository-name.git
+    git clone https://github.com/TuranHidayet/globalSoft-api-task.git
     ```
 
 2. **Composer ilə asılılıqları yükləyin**:
