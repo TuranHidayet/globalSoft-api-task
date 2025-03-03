@@ -6,7 +6,7 @@ Bu layihə, istifadəçilərin müəyyən bir bank hesabında olan balansların�
 
 - **Qeydiyyat**: İstifadəçilər öz hesablarını yaratmaq üçün qeydiyyatdan keçə bilərlər.
 - **Balans yoxlama**: İstifadəçi hesabındakı balansını yoxlaya bilər.
-- **Pul çıxarma**: İstifadəçilər hesablarından pullarını çıxara bilərlər. Çıxarılan pullar müxtəlif denominasiyalarda (100 AZN, 50 AZN, 20 AZN, 10 AZN, 5 AZN) verilir.
+- **Pul çıxarma**: İstifadəçilər hesablarından pullarını çıxara bilərlər. Çıxarılan pullar müxtəlif denominasiyalarda (100 AZN, 50 AZN, 20 AZN, 10 AZN, 5 AZN, 1 AZN) verilir.
 - **Əməliyyatlar**: İstifadəçilər əvvəlki əməliyyatları görə bilərlər.
 - **Admin hüquqları**: Admin istifadəçiləri, digər istifadəçilərin əməliyyatlarını silə bilər.
   
