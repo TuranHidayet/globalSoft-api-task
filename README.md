@@ -40,11 +40,70 @@ Bu layihəni öz sisteminizdə işə salmaq üçün aşağıdakı adımları izl
 
 ## Əməliyyatlar
 
-### 1. **Login**:
+###  **Login**:
 
 İstifadəçi `POST /login` endpoint ilə giriş keçə bilər. Burada `email` və `password` göndərilməlidir.
 
 ![Balance Check Image](https://github.com/TuranHidayet/globalSoft-api-task/blob/master/login.jpeg?raw=true)
+
+###  **Balans**:
+
+İstifadəçi `POST /withdraw` endpoint vasitəsilə pullarını çıxara bilər. Əgər Balansda kifayət qədər vəsait yoxdursa:
+
+![Balance Check Image](https://github.com/TuranHidayet/globalSoft-api-task/blob/master/images/balanskifayetetmir.png?raw=true)
+
+## **Deposit (Balans Artırmaq )**
+İstifadəçilər `POST /deposit` endpoint vasitəsilə hesablarına pul əlavə edə bilərlər. Bu əməliyyat üçün **Bearer Token** and an **amount** tələb olunur.
+ 
+![Deposit](https://github.com/TuranHidayet/globalSoft-api-task/blob/master/images/deposit.jpeg?raw=true)
+
+### **Request Example:**
+```json
+{
+    "amount": 200
+}
+```
+
+## **Withdraw (Pul Çıxarma)**
+İstifadəçilər `POST /withdraw` endpoint vasitəsilə hesablarından pul çıxara bilərlər. Bu əməliyyat üçün **Bearer Token** və **amount** parametri tələb olunur.
+
+![Withdraw](https://github.com/TuranHidayet/globalSoft-api-task/blob/master/images/pulcekmekwithdraw.jpeg?raw=true)
+
+### **Request Example:**
+```json
+{
+    "amount": 100
+}
+```
+
+---
+
+## **View Transactions (Əməliyyatlara Baxmaq)**
+İstifadəçilər `GET /transactions` endpoint vasitəsilə keçmiş əməliyyatlarını görə bilərlər. Bu əməliyyat üçün **Bearer Token** tələb olunur.
+ 
+![Transactions](https://github.com/TuranHidayet/globalSoft-api-task/blob/master/images/transactions.jpeg?raw=true)
+
+### **Request Example:**
+```http
+GET /transactions
+Authorization: Bearer {generated_api_token}
+```
+
+---
+
+## **Əməliyyatı Silmək (Admin Only)**
+Admin istifadəçilər `DELETE /transaction/{id}` endpoint vasitəsilə əməliyyatları silə bilərlər. Bu əməliyyat üçün **Admin Bearer Token** tələb olunur..
+ 
+![Delete Transaction](https://github.com/TuranHidayet/globalSoft-api-task/blob/master/images/delete.jpeg?raw=true)
+
+### **Request Example:**
+```http
+DELETE /transaction/{id}
+Authorization: Bearer {admin_api_token}
+```
+
+---
+
 
 
 
