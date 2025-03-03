@@ -44,7 +44,7 @@ Bu layihəni öz sisteminizdə işə salmaq üçün aşağıdakı adımları izl
 
 İstifadəçi `POST /login` endpoint ilə giriş keçə bilər. Burada `email` və `password` göndərilməlidir.
 
-![Balance Check Image](https://raw.githubusercontent.com/TuranHidayet/globalSoft-api-task/166fb14c45dbac4ab50eca4d9b4fbd27410a1b0d/login.jpeg)
+![Balance Check Image](https://github.com/TuranHidayet/globalSoft-api-task/blob/master/login.jpeg?raw=true)
 
 
 
